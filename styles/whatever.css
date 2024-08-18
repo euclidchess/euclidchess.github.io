@@ -1,0 +1,25 @@
+.playground {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+
+    background-color: brown; 
+    text-align: center;
+    color: whitesmoke; 
+    font-weight: bold;
+    font-family: 'Courier New';
+    font-size: 20pt; 
+}
+
+.funnytext {
+    font-size: 10pt; 
+}
+
+
+
+
+
+
+
+

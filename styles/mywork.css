@@ -1,0 +1,114 @@
+
+.mywork-intro {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+}
+
+.mywork-intro-top {
+    position: absolute; 
+    top: 40%; 
+
+    /* try to be consistent with the order:
+    padding
+    border
+    margin
+    */ 
+
+    padding-left: 20px;
+    padding-right: 20px; 
+
+    border: solid 2px black; 
+    border-radius: 5px;
+
+    font-family: 'Courier New', Courier, monospace; 
+    background-color: rhba(0, 0, 0, 0.1); 
+}
+
+.mywork-intro-top > h1 {
+    display: flex; 
+
+    font-size: 40pt; 
+    color: beige; 
+
+}
+
+.mywork-intro-bgimg {
+    /* percent below might not work because the div is empty and
+    the image would not even show up because the percent adjusts
+    to the content of the div */ 
+    height: 100vh; 
+    width: 98vw; 
+    z-index: -1; 
+    /* z index places this item in the background
+    more specifically: in layer negative one
+    the lower the layer, the further behind it is
+    */ 
+
+    background: url("../imgs/scenery.png");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position-y: 40%; 
+    
+
+    filter: blur(50px); 
+    /* included as a failsafe for older browser versions: (which i have :()*/
+    /* -webkit-filter: blur(1px);  */
+
+
+}
+
+.mywork-intro-desc {
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+
+    font-size: 20pt; 
+    font-weight: bold; 
+    color: aliceblue; 
+}
+
+.mywork-content {
+    /* display: flex; */
+    height: 200vh; 
+
+    background-color: orange; 
+
+}
+
+.photos {
+    height: 180vh; 
+    width: 100%; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+
+.column1 {
+    margin: 2pt; 
+    height: 160vh;
+    width: 25vh; 
+}
+
+.column2 {
+    margin: 2pt; 
+    height: 160vh;
+    width: 25vh; 
+}
+
+.column3 {
+    margin: 2pt; 
+    height: 160vh;
+    width: 25vh; 
+}
+
+.column4 {
+    margin: 2pt;  
+    height: 160vh;
+    width: 25vh; 
+}
+
+.content-image {
+    object-fit: cover;  
+    width: 100%;
+}

@@ -1,0 +1,99 @@
+.aboutme-top-bgimg {
+    /* percent below might not work because the div is empty and
+    the image would not even show up because the percent adjusts
+    to the content of the div */ 
+    height: 100vh; 
+    width: 99vw; 
+    z-index: -1; 
+    /* z index places this item in the background
+    more specifically: in layer negative one
+    the lower the layer, the further behind it is
+    */ 
+
+    background: url("../imgs/wavebg.png");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position-y: 40%; 
+    
+
+    /* filter: blur(50px);  */
+    /* included as a failsafe for older browser versions: (which i have :()*/
+    /* -webkit-filter: blur(1px);  */
+
+
+}
+
+.aboutme-top {
+    position: absolute; 
+    top: 10%; 
+
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+
+    height: 100vh; 
+
+    /* try to be consistent with the order:
+    padding
+    border
+    margin
+    */ 
+
+    /* padding-left: 20px;
+    padding-right: 20px;  */
+
+    /* border: solid 2px black;  */
+    /* border-radius: 5px; */
+
+    font-family: 'Courier New', Courier, monospace; 
+    background-color: rhba(0, 0, 0, 0.1); 
+}
+
+.img-container-top {
+    width: 50%; 
+    margin-left: 60pt; 
+}
+
+.text-container-top {
+    width: 50%;
+    text-align: center; 
+}
+
+.top-image {
+    object-fit: cover; 
+    width: 80%; 
+}
+
+h1 { 
+    margin-top: 30%; 
+    text-align: center; 
+    color: beige;
+    font-size: 80pt;  
+}
+
+.aboutme-bot {
+    height: 180vh; 
+    background-color: lightyellow; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.aboutme-bot-image {
+    width: 50%; 
+}
+
+.aboutme-bot-text {
+    margin-left: 20pt;
+    width: 50%; 
+}
+
+h2 { 
+    font-size: 20pt;  
+}
+
+.bot-image {
+    width: 100%; 
+    object-fit: cover; 
+}
+

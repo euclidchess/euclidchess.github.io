@@ -1,0 +1,142 @@
+.container {
+
+}
+
+.section {
+    /* 
+    height: 60vw;  
+    A fixed height for container sections, helps you style
+    the backgrounds, margins, borders, and paddigns
+    */
+    margin: 0; 
+}
+
+#landing {
+    background-color: burlywood; 
+}
+
+#intro {
+    background-color: coral; 
+    /* align-items: center;  */
+}
+
+#data {
+    background-color: rgba(138, 0, 0, 0.4); 
+}
+
+#img-landing {
+    object-fit: cover;
+    width: 300px;
+    height: 300px; 
+}
+
+#bruce {
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+}
+
+/* .temp {
+    font-size: 15vw; 
+    font-family: 'Franklin Gothic Medium';
+} */
+
+.landing-top {
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.img-container {
+    display: inline-flex; 
+    margin: 10pt; 
+}
+
+.img-desc {
+    display: inline-flex;
+    width: 30%; 
+    margin: 10pt; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-style: italic; 
+}
+
+.intro-top {
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+}
+
+.greeting {
+    display: inline-flex; 
+    font-size: 75pt; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    margin: 50pt; 
+}
+
+.pfp {
+    display: inline-flex; 
+    margin: 10pt; 
+}
+
+.self-intro {
+    flex-direction: row-reverse;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.bio {
+    display: inline-flex; 
+    width: 45%; 
+    margin: 20pt; 
+}
+
+.toilet {
+    display: inline-flex; 
+    width: 45%; 
+    margin: 20pt; 
+}
+
+.data-top {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 50pt; 
+}
+
+.awards {
+    display: inline-flex; 
+    width: 45%; 
+    font-size: 80pt; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    margin: 20pt; 
+}
+
+.award-photo {
+    display: inline-flex; 
+    width: 45%; 
+}
+
+.data-bot {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.stonks {
+    display: inline-flex; 
+    width: 80%; 
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 100pt; 
+    margin-block-start: 0;
+    margin-block-end: 20pt; 
+}
